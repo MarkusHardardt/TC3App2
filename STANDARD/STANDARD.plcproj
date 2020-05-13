@@ -23,6 +23,20 @@
     <Compile Include="PlcTask.TcTTO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TC3Sys\process\IProcess.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TC3Sys\utils\Test.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TC3Sys\utils\TestProcess.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TC3Sys" />
+    <Folder Include="TC3Sys\process" />
+    <Folder Include="TC3Sys\utils" />
   </ItemGroup>
   <ItemGroup>
     <PlaceholderReference Include="Tc2_Standard">

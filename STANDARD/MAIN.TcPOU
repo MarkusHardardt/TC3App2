@@ -4,10 +4,11 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	j_digitalInput1 AT%I*:BOOL;
+	_test:Test;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[_test();]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
