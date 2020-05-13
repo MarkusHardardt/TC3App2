@@ -4,6 +4,23 @@
 		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
 			<Name>STANDARD Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<Vars VarGrpType="1">
+				<Name>PlcTask Inputs</Name>
+				<Var>
+					<Name>MAIN.j_digitalInput1</Name>
+					<Type>BOOL</Type>
+				</Var>
+			</Vars>
+			<TaskPouOids>
+				<TaskPouOid Prio="20" OTCID="#x08502001"/>
+			</TaskPouOids>
 		</Instance>
 	</Project>
+	<Mappings>
+		<OwnerA Name="STANDARD Instance">
+			<OwnerB Name="TIID^Master1 (EtherCAT)^Term 1 (EK1101)^Term 5 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.j_digitalInput1" VarB="Channel 1^Input" Size="1"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmItem>
