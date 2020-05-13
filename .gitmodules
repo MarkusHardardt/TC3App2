@@ -1,3 +1,3 @@
-[submodule "CTRL_ST/TC3Sys"]
+[submodule "STANDARD/TC3Sys"]
 	path = STANDARD/TC3Sys
 	url = https://github.com/MarkusHardardt/TC3Sys.git
